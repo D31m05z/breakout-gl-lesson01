@@ -51,7 +51,7 @@ const float radius = 1;
 const int detail = 15;
 const float corner_radius = 0.2f;
 
-int index = 0;
+static int index = 0;
 
 struct Color {
     float r, g, b;
